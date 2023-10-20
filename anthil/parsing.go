@@ -1,6 +1,7 @@
 package anthil
 
 import (
+	"fmt"
 	"os"
 	"strconv"
 	"strings"
@@ -70,5 +71,6 @@ func Init_Data() (Anthille, bool) {
 		})
 		return anthil, false
 	}
+	fmt.Println(string(tabfile) + "\n")
 	return anthil, true
 }
