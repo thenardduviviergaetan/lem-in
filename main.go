@@ -15,5 +15,6 @@ func main() {
 	anthil.Sort_Path()
 	// anthil.Dysplais_path()
 	anthil.Lot_Path()
-	anthil.Dysplaislot_path()
+	// anthil.Dysplaislot_path()
+	// anthil.Resolve()
 }

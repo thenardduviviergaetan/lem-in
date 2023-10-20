@@ -1,15 +1,18 @@
 package anthil
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Typeroom string
 
 type Room struct {
 	Name      string
 	Type_room Typeroom
-	Nbant     int
-	Ifant     bool
-	Link      []*Room
+	// ne sert pas avec le code actuel
+	// Nbant     int
+	Ifant bool
+	Link  []*Room
 }
 
 type Anthille struct {
